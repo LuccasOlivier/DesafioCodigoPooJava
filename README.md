@@ -1,18 +1,15 @@
-## Getting Started
+## Desafio - Componente iPhone - Implementação em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto tem como objetivo criar uma implementação em Java para simular as funcionalidades de um iPhone, incluindo um Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-## Folder Structure
+### Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+- `ReprodutorMusical.java`: Esta classe representa o Reprodutor Musical do iPhone e inclui métodos para tocar, pausar e selecionar músicas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `AparelhoTelefonico.java`: Esta classe representa o Aparelho Telefônico do iPhone e inclui métodos para ligar, atender chamadas e iniciar correspondência de voz.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `NavegadorInternet.java`: Esta classe representa o Navegador na Internet do iPhone e inclui métodos para exibir páginas da web, adicionar novas abas e atualizar páginas.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `Main.java`: Este é o ponto de entrada do programa, onde você pode interagir com o iPhone simulado.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**Nota**: Este projeto foi criado com o objetivo principal de aprender e praticar conceitos de Programação Orientada a Objetos (POO), implementação em Java e estruturação de código. A implementação não inclui a lógica completa das funcionalidades do iPhone, mas sim a estruturação das classes e interfaces para representar essas funcionalidades.
